@@ -1,0 +1,3 @@
+nome = input("Por favor, insira o nome desejado:")
+ao_contrario = nome[-1:]+nome[1:-1]+nome[:1]
+print(ao_contrario.upper())
